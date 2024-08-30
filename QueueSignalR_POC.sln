@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigger.ToHub", "Trigger.ToHub\Trigger.ToHub.csproj", "{4F802A78-7DE3-4D43-91E5-B868CC95593D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigger.HubGuard", "Trigger.HubGuard\Trigger.HubGuard.csproj", "{ACB9D579-7904-41D3-8114-E7DFD2D3F2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigger.Test", "Trigger.Test\Trigger.Test.csproj", "{FD609CBD-7116-4409-BE4E-A87F989D852F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{4F802A78-7DE3-4D43-91E5-B868CC95593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F802A78-7DE3-4D43-91E5-B868CC95593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F802A78-7DE3-4D43-91E5-B868CC95593D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB9D579-7904-41D3-8114-E7DFD2D3F2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB9D579-7904-41D3-8114-E7DFD2D3F2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB9D579-7904-41D3-8114-E7DFD2D3F2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB9D579-7904-41D3-8114-E7DFD2D3F2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD609CBD-7116-4409-BE4E-A87F989D852F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD609CBD-7116-4409-BE4E-A87F989D852F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD609CBD-7116-4409-BE4E-A87F989D852F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD609CBD-7116-4409-BE4E-A87F989D852F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
