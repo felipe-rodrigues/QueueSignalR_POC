@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 
 // Conexão com o Azure SignalR
 var connection = new HubConnectionBuilder()
-    .WithUrl("https://myub.service.signalr.net")
+    .WithUrl("http://localhost:5059/chat")
     .Build();
 
 try
